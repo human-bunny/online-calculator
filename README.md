@@ -16,9 +16,9 @@ The Online Calculator application is a web-based calculator designed to perform 
 - **MC**: Clear memory.
 - **MR**: Recall memory.
 - **M−**: Subtract the current value from memory.
-- **M+**: Add the current value to memory.
+- M**+**: Add the current value to memory.
 
-### 3. **Advanced Functionalities**
+### 3. **Functionalities**
 
 - **C**: Clear all inputs.
 - **CE**: Clear the current entry.
@@ -55,23 +55,7 @@ The Online Calculator application is a web-based calculator designed to perform 
 
    - Open `index.html` in a web browser to launch the calculator.
 
-## Deploy Instructions
+## Deployed App
 
-### Deploy Locally
-- Use any HTTP server (e.g., Python's built-in HTTP server) to serve the application locally:
-  ```bash
-  python3 -m http.server
-  ```
-- Access the application at `http://localhost:8000/`.
+1. Access the calculator at `https://kevinhsu3.github.io/online-calculator`.
 
-### Deploy on GitHub Pages
-1. Push the repository to GitHub.
-2. Go to the repository settings.
-3. Enable GitHub Pages under the "Pages" section and select the branch containing the `index.html` file.
-4. Access your calculator at `https://<your-username>.github.io/online-calculator`.
-
-## Contributing
-Feel free to fork this repository, submit issues, or create pull requests to suggest improvements.
-
-## License
-This project is licensed under the MIT License.
